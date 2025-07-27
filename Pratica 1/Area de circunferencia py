@@ -1,0 +1,11 @@
+#Constante pi fornecida no enunciado 
+pi = 3.14159265
+
+#Entrada do raio 
+raio = float(Input())
+
+#Cálculo da área
+area = pi * (raio**2)
+
+#Impressão do resultado com 4 casas decimais 
+print(f"A={area:.4f}")
